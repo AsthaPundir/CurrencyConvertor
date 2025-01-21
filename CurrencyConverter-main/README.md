@@ -1,12 +1,1 @@
-
-TODOs:
-
-In groups of 4, complete the following tasks, 1 for each team member:
-1. Extract all the strings into the **strings.xml** file and use them in the layout and the activity
-2. Change the theme of the app to a **NoActionBar** theme and modify the primary colors
-3. Add **Log** messages at the entry/exit of **onCreate()** and **convertCurrency()** methods. Level should be **Info**
-4. Add **ViewBinding** to the project
-
-    - Each task must be done in a separate branch and merged to the main branch
-    after completion using a Pull Request.
-    - Each task must be done by a different team member.
+This Android app allows the user to convert an input amount (entered in an EditText) from one currency to another using a fixed conversion rate (0.80). It uses ViewBinding to easily interact with the UI components, such as a Button for initiating the conversion and a TextView for displaying the result. When the user clicks the convertButton, the convertCurrency() method retrieves the input, performs the conversion, and displays the result in the TextView. The app also logs method entries and exits for debugging purposes. The conversion result is formatted using a string resource.
