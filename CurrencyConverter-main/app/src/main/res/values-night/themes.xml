@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Converter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#1877F2</item> <!-- Facebook Blue -->
+        <item name="colorPrimaryVariant">#3b5998</item> <!-- Facebook Dark Blue -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White for text on primary color -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#1877F2</item> <!-- Facebook Blue -->
+        <item name="colorSecondaryVariant">#1877F2</item> <!-- Facebook Blue -->
+        <item name="colorOnSecondary">#FFFFFF</item> <!-- White for text on secondary color -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
